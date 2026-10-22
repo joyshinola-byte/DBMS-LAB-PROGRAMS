@@ -1,0 +1,10 @@
+CREATE DATABASE college__db;
+USE college__db;
+CREATE TABLE students(
+studentID INT PRIMARY KEY,
+NAME VARCHAR(50) NOT NULL,
+email VARCHAR(100) UNIQUE,
+Age INT,
+City VARCHAR(50)
+);
+DESC students;
